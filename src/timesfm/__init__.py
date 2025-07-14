@@ -13,9 +13,6 @@
 # limitations under the License.
 """TimesFM init file."""
 
-print(
-    " See https://github.com/google-research/timesfm/blob/master/README.md for updated APIs."
-)
 from timesfm.timesfm_base import (
     freq_map,
     TimesFmCheckpoint,
@@ -31,5 +28,3 @@ try:
     print(f"Loaded Jax TimesFM, likely because python version is {sys.version}.")
 except Exception as _:
     from timesfm.timesfm_torch import TimesFmTorch as TimesFm
-
-    print(f"Loaded PyTorch TimesFM, likely because python version is {sys.version}.")
