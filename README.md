@@ -1,3 +1,13 @@
+# Disclaimer
+
+> This is a personal fork of [timesfm](https://github.com/google-research/timesfm), maintained to support custom changes for [timecopilot](https://github.com/AzulGarza/TimeCopilot/) and publish pypi wheels at [`timecopilot-timesfm`](https://pypi.org/project/timecopilot-timesfm/). It may diverge from upstream.
+
+## Credits
+
+This project is a fork of by Original Author(s).  
+All credit for the original code belongs to them. This fork is maintained independently to support TimeCopilot-specific changes.
+
+
 # TimesFM
 
 TimesFM (Time Series Foundation Model) is a pretrained time-series foundation
