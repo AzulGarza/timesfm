@@ -67,10 +67,14 @@ pip install -e .
 ### Code Example
 
 ```python
+import torch
 import numpy as np
 import timesfm
-model = timesfm.TimesFM_2p5_200M_torch()
-model.load_checkpoint()
+
+torch.set_float32_matmul_precision("high")
+
+model = timesfm.TimesFM_2p5_200M_torch.from_pretrained("google/timesfm-2.5-200m-pytorch")
+
 model.compile(
     timesfm.ForecastConfig(
         max_context=1024,

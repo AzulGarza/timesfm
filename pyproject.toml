@@ -65,6 +65,10 @@ include = [
 "src/timesfm" = "timesfm"
 "v1/src/timesfm" = "timesfm_v1"
 
+[tool.ruff]
+line-length = 88
+indent-width = 2
+
 
 [build-system]
 requires = ["hatchling"]
