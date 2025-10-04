@@ -1,6 +1,6 @@
 [project]
 name = "timecopilot-timesfm"
-version = "0.2.0"
+version = "0.2.1"
 description = "Open weights time-series foundation model from Google Research."
 requires-python = ">=3.10"
 readme = "README.md"
